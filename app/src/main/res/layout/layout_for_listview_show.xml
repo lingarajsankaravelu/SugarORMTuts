@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lingaraj"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:singleLine="true"
+        android:id="@+id/name_textview"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/name_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Developer"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:singleLine="true"
+        android:id="@+id/profession_textview"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/profession_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="False"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:singleLine="true"
+        android:id="@+id/senior_textview"
+        android:layout_centerHorizontal="true"
+        />
+
+
+
+</RelativeLayout>

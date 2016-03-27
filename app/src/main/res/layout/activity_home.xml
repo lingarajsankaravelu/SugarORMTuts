@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.hourglass.lingaraj.sugarormtuts.Home">
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:singleLine="true"
+        android:text="Perform CRUD Operation with Table"
+        android:layout_marginBottom="15dp"
+        android:id="@+id/text"
+        />
+
+    <Button
+        android:layout_below="@+id/text"
+        style="@style/button_style_home"
+        android:id="@+id/add_data"
+        android:text="Add Data to  Table"
+        android:elevation="5dp"
+        />
+    <Button
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/add_data"
+        android:id="@+id/view_data"
+        style="@style/button_style_home"
+        android:text="View Table Data"
+        android:elevation="5dp"
+        />
+    <Button
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/view_data"
+        android:id="@+id/update_record"
+        style="@style/button_style_home"
+        android:text="Update Data"
+        android:elevation="5dp"
+        />
+    <Button
+        android:layout_marginTop="15dp"
+        android:background="@android:color/holo_red_light"
+        android:layout_below="@+id/update_record"
+        android:id="@+id/delete_record"
+        style="@style/button_style_home"
+        android:text="Delete Data"
+        android:elevation="5dp"
+        />
+
+</RelativeLayout>

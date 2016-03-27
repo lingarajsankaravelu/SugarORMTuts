@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:counterOverflowTextAppearance="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimary">
+
+        <android.support.design.widget.TextInputEditText
+            android:hint="Name"
+            android:id="@+id/name_edittext"
+            android:imeOptions="actionNext"
+            android:nextFocusForward="@+id/delivery_edittext"
+            style="@style/edittext_add_data"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:counterOverflowTextAppearance="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimary">
+
+        <android.support.design.widget.TextInputEditText
+            android:hint="Profession"
+            android:id="@+id/professsion_editText"
+            android:imeOptions="actionNext"
+            android:nextFocusForward="@+id/delivery_edittext"
+            style="@style/edittext_add_data"
+            />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:counterOverflowTextAppearance="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimary">
+
+        <android.support.design.widget.TextInputEditText
+            android:hint="Senior"
+            android:id="@+id/senior_editText"
+            android:imeOptions="actionNext"
+            android:nextFocusForward="@+id/delivery_edittext"
+            style="@style/edittext_add_data"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+    <RelativeLayout
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        style="@style/button_style_home"
+        android:text="Submit"
+        />
+
+    <Button
+        android:id="@+id/clear"
+        android:layout_toRightOf="@+id/submit"
+        android:layout_marginLeft="12dp"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        style="@style/button_style_home"
+        android:text="Clear"
+        />
+    </RelativeLayout>
+</LinearLayout>
